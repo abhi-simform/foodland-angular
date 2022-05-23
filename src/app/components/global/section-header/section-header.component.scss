@@ -1,0 +1,38 @@
+.section-header {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  margin-bottom: 25px;
+  text-align: center;
+  @media (max-width: 1199.98px) {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  @media (max-width: 991.98px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @media (max-width: 767.98px) {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  @media (max-width: 575.98px) {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}

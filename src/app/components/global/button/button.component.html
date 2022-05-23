@@ -1,0 +1,14 @@
+<button
+  *ngIf="buttonClass == 'buttonOne'"
+  class="button button-primary"
+  (click)="moreCategories()"
+>
+  {{ text }}
+</button>
+<button
+  *ngIf="buttonClass == 'buttonTwo'"
+  class="button button-secondary"
+  (click)="moreCategories()"
+>
+  {{ text }}
+</button>

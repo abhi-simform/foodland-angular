@@ -1,0 +1,23 @@
+<section class="more-recipes-section">
+  <div class="container more-recipes-container">
+    <app-section-header
+      class="more-recipe-header"
+      title="Try this delicious recipe
+    to make your day"
+      description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
+    ></app-section-header>
+    <div class="more-recipe-card-container">
+      <div *ngFor="let morerecipe of morerecipes" class="recipe-card more-card">
+        <img src="{{ morerecipe.imagePath }}" alt="" class="recipe__img" />
+        <app-heart></app-heart>
+        <h3 class="recipe__title">{{ morerecipe.title }}</h3>
+        <div class="recipe__info">
+          <i class="bx bxs-timer"></i>
+          <span>{{ morerecipe.duration }}</span>
+          <i class="bx bx-fork"></i>
+          <span>{{ morerecipe.type }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

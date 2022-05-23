@@ -1,0 +1,81 @@
+<!-- <span class="material-symbols-outlined"> menu </span>
+<span class="material-symbols-outlined"> close </span> -->
+
+<!-- <header class="header">
+  <div class="container header-container">
+    <div class="logo">Foodieland<span>.</span></div>
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
+        <li class="navbar__item">
+          <a href="#" class="navbar__link">Recipes</a>
+        </li>
+        <li class="navbar__item"><a href="#" class="navbar__link">Blog</a></li>
+        <li class="navbar__item">
+          <a href="#" class="navbar__link">Contact</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#" class="navbar__link">About Us</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="social">
+      <a href="" class="social__link">
+        <i class="bx bxl-facebook"></i>
+      </a>
+      <a href="" class="social__link">
+        <i class="bx bxl-twitter"></i>
+      </a>
+      <a href="" class="social__link">
+        <i class="bx bxl-instagram"></i>
+      </a>
+    </div>
+    <div class="hamburger" id="hamburger" onclick="navbarExpand()">
+      <i class="bx bx-menu"></i>
+      <i class="bx bx-x-circle"></i>
+    </div>
+  </div>
+</header> -->
+
+<header class="header">
+  <div class="container header-container">
+    <p class="header__logo">Foodieland<span>.</span></p>
+    <nav class="nav" [ngClass]="{ navactive: isActive }" id="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="/" class="nav__link"> Home </a>
+        </li>
+        <li class="nav__item">
+          <a href="/recipes" class="nav__link"> Recipes </a>
+        </li>
+        <li class="nav__item">
+          <a href="/blog" class="nav__link"> Blog </a>
+        </li>
+        <li class="nav__item">
+          <a href="/contact" class="nav__link"> Contact </a>
+        </li>
+        <li class="nav__item">
+          <a href="/about" class="nav__link"> About Us </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      id="headerSocial"
+      class="header__social"
+      [ngClass]="{ headersocialactive: isActive }"
+    >
+      <a href="facebook.com" class="header__social-link">
+        <i class="bx bxl-facebook"></i>
+      </a>
+      <a href="twitter.com" class="header__social-link">
+        <i class="bx bxl-twitter"></i>
+      </a>
+      <a href="instagram.com" class="header__social-link">
+        <i class="bx bxl-instagram"></i>
+      </a>
+    </div>
+    <div class="hamburger" (click)="isActive = !isActive">
+      <i class="bx bx-menu"></i>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,164 @@
+// .header {
+//   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+// }
+
+// .header-container {
+//   padding: 40px 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   & > * {
+//     flex-grow: 1;
+//   }
+// }
+
+// .logo {
+//   font-family: "Lobster";
+//   font-size: 24px;
+//   line-height: 30px;
+//   span {
+//     color: orange;
+//   }
+// }
+
+// .hamburger {
+//   display: none;
+// }
+
+// .navbar__list {
+//   display: flex;
+//   justify-content: center;
+//   gap: 60px;
+//   font-size: 16px;
+//   line-height: 19px;
+//   letter-spacing: -0.02em;
+// }
+
+// .navbar__link {
+//   &:hover {
+//     color: orange;
+//   }
+// }
+
+// .social {
+//   text-align: right;
+// }
+
+// .social__link,
+// .bx {
+//   vertical-align: middle;
+//   &:hover {
+//     color: orange;
+//   }
+// }
+
+// .social__link {
+//   font-size: 20px;
+//   vertical-align: bottom;
+// }
+
+// .social__link:not(:first-child) {
+//   margin-left: 40px;
+// }
+
+.header {
+  padding: 40px 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  @media (max-width: 991.98px) {
+    padding: 30px 0 15px 0;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 991.98px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.header__logo {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Lobster";
+  span {
+    color: hsl(22, 100%, 57%);
+  }
+  @media (max-width: 991.98px) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+
+.nav {
+  @media (max-width: 991.98px) {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    max-height: 0;
+    overflow: hidden;
+  }
+}
+
+.navactive {
+  max-height: 1000px;
+  // overflow: visible;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  @media (max-width: 991.98px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.nav__item {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+}
+
+.header__social {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+  @media (max-width: 991.98px) {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    justify-content: center;
+    margin-top: 20px;
+    max-height: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+.headersocialactive {
+  max-height: 1000px;
+}
+
+.hamburger {
+  display: none;
+  text-align: right;
+  i {
+    font-size: 30px;
+  }
+  @media (max-width: 991.98px) {
+    display: block;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .show {
+    margin-left: auto;
+    display: block;
+  }
+  .hide {
+    margin-left: auto;
+    display: none;
+  }
+}

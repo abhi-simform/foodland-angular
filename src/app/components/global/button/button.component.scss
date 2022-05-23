@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  padding: 20px 25px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  border: none;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: black;
+  color: white;
+}
+
+.button-secondary {
+  background-color: #e7fafe;
+  color: black;
+}

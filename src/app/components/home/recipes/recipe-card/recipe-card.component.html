@@ -1,0 +1,11 @@
+<div *ngFor="let recipe of recipes" class="{{ recipe.cardClass }}">
+  <img src="{{ recipe.imagePath }}" alt="" class="recipe__img" />
+  <app-heart></app-heart>
+  <h3 class="recipe__title">{{ recipe.title }}</h3>
+  <div class="recipe__info">
+    <i class="bx bxs-timer"></i>
+    <span>{{ recipe.duration }}</span>
+    <i class="bx bx-fork"></i>
+    <span>{{ recipe.type }}</span>
+  </div>
+</div>

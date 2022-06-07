@@ -13,7 +13,7 @@ export const recipes: recipe[] = [
     title: 'Big and Juicy Wagyu Beef Cheeseburger',
     duration: '30 minutes',
     type: 'Snack',
-    imagePath: '../../../../assets/images/recipe/recipe01.png',
+    imagePath: '../../../../assets/images/recipe/recipe01.webp',
     cardClass: 'recipe-card',
   },
   {
@@ -21,7 +21,7 @@ export const recipes: recipe[] = [
     title: 'Fresh Lime Roasted Salmon with Ginger Sauce',
     duration: '30 Minutes',
     type: 'Fish',
-    imagePath: '../../../../assets/images/recipe/recipe02.png',
+    imagePath: '../../../../assets/images/recipe/recipe02.webp',
     cardClass: 'recipe-card',
   },
   {
@@ -29,7 +29,7 @@ export const recipes: recipe[] = [
     title: 'Strawberry Oatmeal Pancake with Honey Syrup',
     duration: '30 Minutes',
     type: 'Breakfast',
-    imagePath: '../../../../assets/images/recipe/recipe03.png',
+    imagePath: '../../../../assets/images/recipe/recipe03.webp',
     cardClass: 'recipe-card',
   },
   {
@@ -37,7 +37,7 @@ export const recipes: recipe[] = [
     title: 'Fresh and Healthy Mixed Mayonnaise Salad',
     duration: '30 Minutes',
     type: 'Healthy',
-    imagePath: '../../../../assets/images/recipe/recipe04.png',
+    imagePath: '../../../../assets/images/recipe/recipe04.webp',
     cardClass: 'recipe-card',
   },
   {
@@ -45,7 +45,7 @@ export const recipes: recipe[] = [
     title: 'Chicken Meatballs with Cream Cheese',
     duration: '30 Minutes',
     type: 'Meat',
-    imagePath: '../../../../assets/images/recipe/recipe05.png',
+    imagePath: '../../../../assets/images/recipe/recipe05.webp',
     cardClass: 'recipe-card',
   },
   {
@@ -53,7 +53,7 @@ export const recipes: recipe[] = [
     title: '',
     duration: '',
     type: '',
-    imagePath: '../../../../assets/images/recipe/Ads.png',
+    imagePath: '../../../../assets/images/recipe/Ads.webp',
     cardClass: 'ads-card',
   },
   {
@@ -61,7 +61,7 @@ export const recipes: recipe[] = [
     title: 'Fruity Pancake with Orange & Blueberry',
     duration: '30 Minutes',
     type: 'Sweet',
-    imagePath: '../../../../assets/images/recipe/recipe06.png',
+    imagePath: '../../../../assets/images/recipe/recipe06.webp',
     cardClass: 'recipe-card',
   },
   {
@@ -69,7 +69,7 @@ export const recipes: recipe[] = [
     title: 'The Best Easy One Pot Chicken and Rice',
     duration: '30 Minutes',
     type: 'Snack',
-    imagePath: '../../../../assets/images/recipe/recipe07.png',
+    imagePath: '../../../../assets/images/recipe/recipe07.webp',
     cardClass: 'recipe-card',
   },
   {
@@ -77,7 +77,7 @@ export const recipes: recipe[] = [
     title: 'The Creamiest Creamy Chicken and Bacon Pasta',
     duration: '30 Minutes',
     type: 'Noodles',
-    imagePath: '../../../../assets/images/recipe/recipe08.png',
+    imagePath: '../../../../assets/images/recipe/recipe08.webp',
     cardClass: 'recipe-card',
   },
 ];
